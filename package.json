@@ -10,8 +10,6 @@
     "test:build": "npm run build && mocha tests/build.test.js",
     "build": "echo 'Your build command here'"
   },
-  
-
   "name": "test-1-12",
   "description": "## Overview **Resrvd** is a web application designed to streamline the reservation process for listed workstations, particularly aimed at devices like 3D printers. It provides a user-friendly interface for users to reserve available workstations, helping to manage and optimize the usage of shared resources.",
   "version": "1.0.0",
