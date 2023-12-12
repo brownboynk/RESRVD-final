@@ -43,3 +43,18 @@ Make sure you dowloude Node.js first
 
 ##vi) npm init
 
+
+## Testing
+
+to start:
+
+   run 'npm install chai chai-http mocha --save-dev' to install the mocha chai testing dependency
+
+to test if the build is working:
+
+   run 'npm run test:build' to receive a prompt stating that it should build without errors
+
+to test using the cases in test.js:
+
+   run 'npm test' to view that all 6 test cases have passed.
+
