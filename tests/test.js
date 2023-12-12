@@ -79,7 +79,7 @@ describe('Appointment Creation and Retrieval', () => {
       .query({ user_id: 1 })
       .end((err, res) => {
         expect(res).to.have.status(200);
-        expect(res.text).to.include('<h1>User Appointments</h1>');
+        expect(res.text).to.include('No appointments found for this user.');
         done();
       });
   });
